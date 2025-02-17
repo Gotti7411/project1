@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+
+</head>
+
+<body>
+    <header>
+        <div class="logo">Coursera</div>
+        <div class="search-container">
+            <input type="text" id="CourseSearch" placeholder="search here....">
+            <button id="searchButton">Search</button>
+        </div>
+       
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="Course.html">courses</a>
+            <a href="Signup.html">Sign Up</a>
+            <a href="SignupButton"></a>
+
+        </nav>
+    </header>
+    <div class="sort-container">
+        <label for="sortOptions">Sort By:</label>
+        <select id="sortOptions">
+            <option value="default">Default</option>
+            <option value="price">Price</option>
+        </select>
+    </div>
+    <div>
+       <div id="CourseList" class="Course-list">
+           <!--All the Courses will be displayed here -->
+       </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
